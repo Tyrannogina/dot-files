@@ -1,0 +1,25 @@
+[core]
+	editor = gedit
+[push]
+	default = simple
+[alias]
+     	co = checkout
+     	undo = reset --hard
+     	cb = checkout -b
+     	br = branch
+     	cp = cherry-pick
+     	st = status
+     	l = log --pretty=oneline --decorate --abbrev-commit
+	lg = log --oneline --decorate --all --graph
+     	last = log --decorate -1 -p --abbrev-commit
+     	ca = commit -a
+     	pom = push origin master
+     	graph = log --pretty=oneline --graph --abbrev-commit
+     	dt = difftool
+	s = status -s
+[color]
+	ui = true
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
